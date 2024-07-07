@@ -21,7 +21,7 @@ item.forEach((item)=>{
     bx.addEventListener('mouseover', () => {
         fruits.style.height = '330px';
         // bx.style.position='fixed'
-
+        fruits.style.display = 'block'; 
     });
 
     bx.addEventListener('mouseout', () => {
